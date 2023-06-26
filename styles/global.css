@@ -1,0 +1,41 @@
+
+  body {
+    margin: 0px;
+    padding: 0px;
+    color: white !important;
+    background-color: black !important;
+  }
+  /*home*/
+  .home{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .heading-homepage{
+    font-weight: bolder;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+  
+  :root {
+    --primary-color: #A82C48;
+    --secondry-color: #43121d;
+    --third-color: #F85438;
+    --white-color: #fff;
+    --text-color: #555;
+    --text-gray: #999;
+    --black-color: rgb(255, 255, 255);
+    --primary-font: 'Roboto', sans-serif;
+    --secondry-font: 'Quicksand', sans-serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+    }
+
